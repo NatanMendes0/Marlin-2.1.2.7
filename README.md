@@ -25,6 +25,31 @@ Para compilar e carregar o Marlin, você usará uma destas ferramentas:
 - O [Arduino IDE](//www.arduino.cc/en/main/software) gratuito: Veja [Compilando Marlin com Arduino](//marlinfw.org/docs/basics/install_arduino.html)
 - VSCode com devcontainer: Veja [Instalando Marlin (VSCode devcontainer)](http://marlinfw.org/docs/basics/install_devcontainer_vscode.html).
 
+## Alterações de firmware aplicadas
+
+A seguir, as diretivas que foram modificadas/ativadas na configuração:
+
+- `#define USE_PROBE_FOR_Z_HOMING`
+- `#define BLTOUCH`
+- `#define NOZZLE_TO_PROBE_OFFSET { -55, -6, 0 }`
+- `#define Z_PROBE_FEEDRATE_FAST (20*60)`
+- `#define Z_CLEARANCE_DEPLOY_PROBE 6`
+- `#define Z_CLEARANCE_BETWEEN_PROBES 3`
+- `#define AUTO_BED_LEVELING_BILINEAR`
+- `#define RESTORE_LEVELING_AFTER_G28`
+- `#define Z_SAFE_HOMING`
+- `#define GRID_MAX_POINTS_X 5`
+- `#define BLTOUCH_DELAY 300`
+- `#define BLTOUCH_HS_MODE true`
+- `#define FWRETRACT`
+- `#define BABYSTEP_MULTIPLICATOR_Z  0.01`
+- `#define BABYSTEP_DISPLAY_TOTAL`
+- `#define FWRETRACT`
+
+Adicionalmente, o tamanho da mesa foi atualizado para:
+
+- 180 x 220 x 200 (firmware + fatiador)
+
 ## Recursos
 
 - [Documentação Marlin](//marlinfw.org)
