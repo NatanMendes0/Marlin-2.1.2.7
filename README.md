@@ -46,9 +46,7 @@ A seguir, as diretivas que foram modificadas/ativadas na configuração:
 - `#define BABYSTEP_DISPLAY_TOTAL`
 - `#define FWRETRACT`
 
-Adicionalmente, o tamanho da mesa foi atualizado para:
-
-- 180 x 220 x 200 (firmware + fatiador)
+Adicionalmente, o tamanho da mesa foi atualizado para 210mm³, devido ao upgrade para direct drve
 
 ## Recursos
 
